@@ -10,3 +10,5 @@ def clean_text(text):
     lemmatizer = WordNetLemmatizer()
     lemmatized = [lemmatizer.lemmatize(word) for word in text_no_nums]
     return ' '.join(lemmatized)
+
+#adding a comment so I can push
